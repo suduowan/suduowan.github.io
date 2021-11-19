@@ -3,28 +3,28 @@
         {
             "name": "月光小夜曲",
             "artist": "蔡　琴",
-            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/ygxyq.flac",
+            "url": "http://r2tkl8wuv.hd-bkt.clouddn.com/ygxyq.flac",
             "cover": "/addons/assistant/music/ygxyq.jpg",
             "theme": "#333333"
         },
         {
             "name": "吻别",
             "artist": "张学友",
-            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/wenbie.flac",
+            "url": "http://r2tkl8wuv.hd-bkt.clouddn.com/wenbie.flac",
             "cover": "/addons/assistant/music/wenbie.jpg",
             " theme": "#cccccc"
         },
         {
             "name": "陪我看日出",
             "artist": "蔡淳佳",
-            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/pwkrc.flac",
+            "url": "http://r2tkl8wuv.hd-bkt.clouddn.com/pwkrc.flac",
             "cover": "/addons/assistant/music/pwkrc.jpg",
             "theme": "#cccccc"
         },
         {
             "name": "天空",
             "artist": "王　菲",
-            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/tiankong.flac",
+            "url": "http://r2tkl8wuv.hd-bkt.clouddn.com/tiankong.flac",
             "cover": "/addons/assistant/music/tiankong.jpg",
             "theme": "#ebd0c2"
         }
