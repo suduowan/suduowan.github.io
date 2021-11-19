@@ -1,0 +1,59 @@
+{
+    "music":[
+        {
+            "name": "月光小夜曲",
+            "artist": "蔡　琴",
+            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/ygxyq.flac",
+            "cover": "/addons/assistant/music/ygxyq.jpg",
+            "theme": "#333333"
+        },
+        {
+            "name": "吻别",
+            "artist": "张学友",
+            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/wenbie.flac",
+            "cover": "/addons/assistant/music/wenbie.jpg",
+            " theme": "#cccccc"
+        },
+        {
+            "name": "陪我看日出",
+            "artist": "蔡淳佳",
+            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/pwkrc.flac",
+            "cover": "/addons/assistant/music/pwkrc.jpg",
+            "theme": "#cccccc"
+        },
+        {
+            "name": "天空",
+            "artist": "王　菲",
+            "url": "https://suduowan.oss-cn-shanghai.aliyuncs.com/music/tiankong.flac",
+            "cover": "/addons/assistant/music/tiankong.jpg",
+            "theme": "#ebd0c2"
+        }
+    ],
+    "faceImages":{
+        "smile":"/addons/assistant/images/face1.gif",
+        "happy":"/addons/assistant/images/face2.gif",
+        "excite":"/addons/assistant/images/face3.gif"
+    },
+    "navigation":[
+        {
+            "title":"了解一下我们最近的动态？",
+            "url":"/"
+        },
+        {
+            "title":"最近有什么新鲜事发生呢？",
+            "url":"www.baidu.com"
+        },
+        {
+            "title":"浩瀚星空中的一粒微尘",
+            "url":"/"
+        },
+        {
+            "title":"我有问题，想和大家讨论一下",
+            "url":"/"
+        },
+        {
+            "title":"我想投递自己的作品！",
+            "url":"/"
+        }
+    ]
+}

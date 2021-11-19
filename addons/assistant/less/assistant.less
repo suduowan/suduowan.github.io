@@ -1,0 +1,173 @@
+/**
+ * 小客服组件样式表
+ * @version V1.0.0
+ * @description
+ * @param {Object}
+ * @return {Object}
+ * @author 优酱
+ * @email 718741938@qq.com
+ * @create_date 2021-11-15 03:12:11
+ */
+
+// Core variables and mixins
+// 音乐播放器
+@import "./mixins/aplayer.less";
+// 核心变量和混合物 
+@import "./mixins/commons.less";
+// 主题色
+@import "./mixins/theme.less";
+// 小组件Body
+@theme-color-default:#333;
+
+.assistant-wrapper {
+    .hide();
+    .debug();
+    color:@theme-color-default;
+    position:fixed;
+    font-size:12px;
+    line-height:23px;
+    text-align:left;
+    z-index:999;
+    opacity:0.85;
+    & a{
+        color: #0d6efd;
+        text-decoration:none
+    }
+    & a:hover{
+        color: #fd7e14;
+        text-decoration:underline;
+    }
+    ul{
+        margin: 10px 0 0 10px;
+        padding: 0px;
+    }
+    ul li{
+        line-height: 16px;
+        list-style: none;
+    }
+    // 小组件主题
+    #assistant-sticker {
+        background-repeat:no-repeat;
+        position:absolute;
+        top:0px;
+        left:0px;
+    }
+    .assistant-workarea {
+        position:absolute;
+        top:0px;
+        left:-272px;
+        width:260px;
+        border-radius: 4px;
+        padding:4px;
+        border:1px solid @theme-color-default;
+        background-color:#fff;
+    }
+    
+    .button-menu {
+        display: inline-block;
+        height:20px;
+        line-height: 18px;
+        margin-left:0px;
+        padding:0;
+        cursor:pointer;
+        border-left:1px solid rgba(51, 51, 51,.5);
+        border-right:1px solid rgba(51, 51, 51,.5);
+        padding: 0 3px;
+        //background:url("../images/menu.jpg") no-repeat top right;
+        float: right;
+        clear: both;
+
+    }
+    // 小组件对话窗口
+    .assistant-dialog{
+        .hide();
+
+        width: 100%;
+    }
+    #assistant-dialog ul {
+        width:96%;
+    }
+    // 小组件菜单栏目
+    .assistant-menu-wrapper {
+        text-align:left;
+        width:300px;
+        overflow:hidden;
+        .hide();
+    }
+    .assistant-menu-item {
+        text-align:center;
+        width:29%;
+        float:left;
+        line-height:16px;
+        margin:0;
+        padding:0px 0px 4px 0px;
+        cursor:pointer;
+        overflow:hidden;
+    }
+    // 搜索窗口
+    #assistant-search {
+        width:auto;
+        line-height:20px;
+        border:1px solid #888;
+        background-color:#FFF;
+        padding-top:2px;
+        overflow:hidden;
+        
+        display:none;
+    }
+    .assistant-search-input {
+        border:none;
+        float:left;
+        width:180px;
+        height:16px;
+    }
+    .assistant-search-submit {
+        color:@theme-color-default;
+        display: inline-block;
+        border:none;
+        background: none;
+        cursor:pointer;
+    }
+    // 音乐播放器
+    .aplayer{
+        display: none;
+        box-shadow: initial;
+        background: none;
+    }
+    // 音乐封面圆角
+    .aplayer .aplayer-pic{
+        box-sizing:border-box;
+        //  15秒内完成一次旋转
+        animation:music-cover 15s infinite linear;
+        border-radius:50%;
+    }
+    // 播放按钮位置
+    .aplayer .aplayer-pic .aplayer-pause {
+        width: 16px;
+        height: 16px;
+        border: 2px solid #fff;
+        left: 35%;
+        top: 35%;
+    }
+    @keyframes music-cover{
+        0%{
+            transform:rotate(0deg);
+        }
+        100%{
+            transform:rotate(360deg);
+        }
+    }
+    // 唤醒小助手
+    & + #call-assistant {
+        position:fixed;
+        width:60px;
+        line-height:16px;
+        cursor:pointer;
+        display:none;
+        font-size:12px;
+        border:1px solid @theme-color-default;
+        border-radius: 1px;
+        background-color:#FFF;
+        z-index: 10;
+    } 
+}
