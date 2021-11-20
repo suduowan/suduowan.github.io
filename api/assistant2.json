@@ -3,28 +3,28 @@
         {
             "name": "月光小夜曲",
             "artist": "蔡　琴",
-            "url": "https://blog.youyan.site/oss/ygxyq.flac",
+            "url": "/music/ygxyq.flac",
             "cover": "/addons/assistant/music/ygxyq.jpg",
             "theme": "#333333"
         },
         {
             "name": "吻别",
             "artist": "张学友",
-            "url": "https://blog.youyan.site/oss/wenbie.flac",
+            "url": "/music/wenbie.flac",
             "cover": "/addons/assistant/music/wenbie.jpg",
             " theme": "#cccccc"
         },
         {
             "name": "陪我看日出",
             "artist": "蔡淳佳",
-            "url": "https://blog.youyan.site/oss/pwkrc.flac",
+            "url": "/music/pwkrc.flac",
             "cover": "/addons/assistant/music/pwkrc.jpg",
             "theme": "#cccccc"
         },
         {
             "name": "天空",
             "artist": "王　菲",
-            "url": "https://blog.youyan.site/oss/tiankong.flac",
+            "url": "/music/tiankong.flac",
             "cover": "/addons/assistant/music/tiankong.jpg",
             "theme": "#ebd0c2"
         }
