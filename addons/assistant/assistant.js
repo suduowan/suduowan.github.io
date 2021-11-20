@@ -146,8 +146,8 @@ class Assistant {
 		var historyHeight 	= this.getCookie("historyheight");
 
 		// 如果没有历史记录则自动计算对象可见的窗口宽高
-		this.width 	= historyWidth == null ?  document.documentElement.clientWidth - 200 - width : historyWidth; // 小助手图片宽度
-		this.height = historyHeight  == null ?  document.documentElement.clientHeight - 200 - width : historyHeight; // 小助手图片高度
+		this.width 	= historyWidth == null ?  document.documentElement.clientWidth - 30 - width : historyWidth; // 小助手图片宽度
+		this.height = historyHeight  == null ?  document.documentElement.clientHeight - 200 - height : historyHeight; // 小助手图片高度
 		// DEBUG
 		// this.width 	= document.documentElement.clientWidth - 30 - width ; // 小助手图片宽度
 		// this.height = document.documentElement.clientHeight - 200 - height ; // 小助手图片高度
