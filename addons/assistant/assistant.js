@@ -44,7 +44,7 @@ class Assistant {
 	static APP_NAME 	= '网站小客服';
 	static APP_VERSION 	= '1.0';
 	static APP_DEV_URL 	= 'https://www.youyan.site';
-	static APP_DEBUG 	= true;
+	static APP_DEBUG 	= false;
 
 	//	页面超时设置 单位：分钟
 	static PAGE_OVERTIME_TIME = 30;
@@ -62,6 +62,10 @@ class Assistant {
 	static AUTOMATIC_SPEAKING_LIST = [
 		{
 			message:'可疑之利不可取,得之易时失之易。',
+			mood:'smile'
+		},
+		{
+			message:'人类的悲欢并不相同,我只觉得他们吵闹。',
 			mood:'smile'
 		},
 		{
@@ -144,6 +148,9 @@ class Assistant {
 		// 如果没有历史记录则自动计算对象可见的窗口宽高
 		this.width 	= historyWidth == null ?  document.documentElement.clientWidth - 200 - width : historyWidth; // 小助手图片宽度
 		this.height = historyHeight  == null ?  document.documentElement.clientHeight - 200 - width : historyHeight; // 小助手图片高度
+		// DEBUG
+		// this.width 	= document.documentElement.clientWidth - 30 - width ; // 小助手图片宽度
+		// this.height = document.documentElement.clientHeight - 200 - height ; // 小助手图片高度
 	}
 	startRun(){
 		//	创建DOM视图

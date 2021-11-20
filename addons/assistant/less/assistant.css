@@ -736,14 +736,13 @@ menu {
 }
 .assistant-wrapper {
   display: none;
-  border: 1px solid red;
   color: #333;
   position: fixed;
   font-size: 12px;
   line-height: 23px;
   text-align: left;
   z-index: 999;
-  opacity: 0.85;
+  opacity: 1;
 }
 .assistant-wrapper a {
   color: #0d6efd;

@@ -4,6 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>技术客栈</title>
+	<style>
+		.card-img-top{
+			min-height: 194px;
+			max-height: 194px;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -46,18 +52,18 @@
 					</div>
 				</div>
 			</div>
-			<!-- TTTTTTTTTTTTTTTTTTTTTT -->
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
 				<div class="card">
 					<img src="./images/cover4.png" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h5 class="card-title">Ding...</h5>
+						<h5 class="card-title">太阳系行星系统</h5>
 						<p class="card-text">...</p>
 						<p class="card-text">2021-11-15</p>
-						<a href="/" class="btn btn-primary stretched-link">查看组件</a>
+						<a href="./addons/solar-system" class="btn btn-primary stretched-link">查看组件</a>
 					</div>
 				</div>
 			</div>
+			<!-- TTTTTTTTTTTTTTTTTTTTTT -->
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
 				<div class="card">
 					<img src="./images/cover5.png" class="card-img-top" alt="...">
@@ -104,7 +110,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
 				<div class="card">
-					<img src="./images/cover4.png" class="card-img-top" alt="...">
+					<img src="./images/cover9.png" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h5 class="card-title">Ding...</h5>
 						<p class="card-text">...</p>
@@ -160,7 +166,7 @@
 <!-- 小客服 S -->
 <link rel="stylesheet" href="/addons/assistant/less/assistant.css">
 <script src="/addons/assistant/addons/APlayer/APlayer.min.js"></script>
-<script src="/addons/assistant/assistant.js?asd=aasdasdassd"></script>
+<script src="/addons/assistant/assistant.js?asd=aa"></script>
 <!-- 小客服 E -->
 <script>
 	$.ajax({
@@ -168,7 +174,7 @@
 		url: "/api/assistant.json",
 		dataType: "json",
 		success:(data)=>{
-			new Assistant('小星',85,152,data);
+			new Assistant('小星',65,65,data);
 		}
 	})
 
