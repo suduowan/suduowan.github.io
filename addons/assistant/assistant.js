@@ -1,5 +1,5 @@
 /**
- * 客服小助手-小星 (https://getbootstrap.com/)
+ * 客服小助手-小星 (https://suduowan.github.io)
  * @version V1.0.0 `版本号`
  * @description `注释描述`
  * @param {Object} `参数说明`
